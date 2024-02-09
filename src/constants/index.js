@@ -155,7 +155,7 @@ const projects = [
     ],
     image: evently,
     source_code_link: "https://github.com/HAMZA-AOUN/event_platform",
-    demo: "https://event-platform-o2qz.vercel.app/",
+    demo: "https://event-platform-o2qz-4x89scurz-hamza-aouns-projects.vercel.app/",
     video_link: "",
   },
 
