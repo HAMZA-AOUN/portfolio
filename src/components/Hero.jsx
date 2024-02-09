@@ -45,7 +45,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
       <div
         className="absolute xs:bottom-0 
