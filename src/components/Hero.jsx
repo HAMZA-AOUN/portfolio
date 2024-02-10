@@ -1,55 +1,49 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
+import HeroTypeWriter from "./HeroTypeWriter";
 //import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
     <section
-      className={`relative w-full h-screen 
-     mx-auto`}
+      className="w-full  h-screen flex-col items-center justify-center
+        "
     >
-      <div
-        className={`absolute inset-0 top-[80px] ml-2
-         mx-auto ${styles.paddingX} flex 
-         flex-row items-start gap-5`}
-      >
-        <div
-          className="flex flex-col justify-center 
-        items-center mt-5"
+      <div className="flex flex-col items-center justify-center w-full">
+        <p
+          className="mt-40 text-white tracking-widest 
+        text-[18px] sm:text-[25px] lg:text-[30px] font-bold  cursor-pointer "
         >
-          <div
-            className="w-5 h-5 rounded-full 
-          bg-[#915EFF]"
-          />
-          <div
-            className="w-1 sm:h-80 h-40
-           violet-gradient"
-          />
-        </div>
+          Hello it's me . .
+        </p>
+        <p
+          className={`text-white font-extrabold leading-[90px] 
+         tracking-[6px] xs:tracking-[10px] sm:tracking-[20px] lg:tracking-[30px]
+         text-[30px] xs:text-[50px] sm:text-[60px] lg:text-[70px]
+         
+         `}
+        >
+          Hamza Aoun
+        </p>
 
-        <div>
-          <h1
-            className={`${styles.heroHeadText}
-           text-white`}
-          >
-            Hi, I'm <span className="text-[#915EFF]">Hamza</span>
-          </h1>
+        <div className="flex flex-row items-center justify-center w-full flex-wrap">
           <p
-            className={`${styles.heroSubText} 
-           text-white-100`}
+            className=" text-white tracking-widest 
+        text-[18px] sm:text-[25px] lg:text-[30px] font-bold  cursor-pointer "
           >
-            I develop user interfaces <br className="sm:block hidden" />
-            and web applications
+            and I am a
           </p>
         </div>
+        <HeroTypeWriter
+          speed={200}
+          words={["Web Developer..", "UI/UX Designer..", "Freelancer.."]}
+        />
       </div>
 
-      {/* <ComputersCanvas /> */}
-
       <div
-        className="absolute xs:bottom-0 
-      bottom-32 w-full flex justify-center
+        className=" absolute top-[420px] sm:top-[480px]
+ w-full flex justify-center
        items-center"
       >
         <a href="#about">
@@ -78,3 +72,25 @@ const Hero = () => {
 };
 
 export default Hero;
+
+{
+  /* <div
+className={`  ${styles.paddingX} flex 
+ flex-row  justify-center items-center`}
+>
+<div
+  className="flex flex-col justify-center 
+items-center mt-5"
+>
+  <div
+    className="w-5 h-5 rounded-full 
+  bg-[#915EFF]"
+  />
+  <div
+    className="w-1 sm:h-80 h-40
+   violet-gradient"
+  />
+</div>
+
+</div> */
+}

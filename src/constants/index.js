@@ -156,7 +156,8 @@ const projects = [
     image: evently,
     source_code_link: "https://github.com/HAMZA-AOUN/event_platform",
     demo: "https://event-platform-o2qz-4x89scurz-hamza-aouns-projects.vercel.app/",
-    video_link: "",
+    video_link:
+      "https://drive.google.com/file/d/1IJFF50NMu2lf2cb80K_IW29Pe36iJwRW/view?usp=drivesdk",
   },
 
   {

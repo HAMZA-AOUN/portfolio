@@ -64,17 +64,21 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
-        <div className="flex flex-row items-center justify-between w-full m-4 ml-0">
+        <div className="flex  flex-row items-center justify-between w-full m-4 ml-0">
           <div
             className="flex
            m-3 card-img_hover"
           >
             <div
-              onClick={() => window.open(video_link, "_blank")}
-              className="bg-white 
-              w-10 h-10 rounded-full flex 
-              justify-center items-center 
-              cursor-pointer"
+              onClick={() =>
+                video_link ? window.open(video_link, "_blank") : {}
+              }
+              className={`bg-white ${
+                video_link ? "opacity-100 cursor-pointer" : "opacity-25"
+              }
+                w-10 h-10 rounded-full  flex
+                justify-center items-center 
+                `}
             >
               <img
                 src={video}

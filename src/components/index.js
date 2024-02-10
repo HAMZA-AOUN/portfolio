@@ -4,6 +4,7 @@ import {
   // ComputersCanvas,
   StarsCanvas,
 } from "./canvas";
+import HeroTypeWriter from "./HeroTypeWriter";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 import About from "./About";
@@ -28,4 +29,5 @@ export {
   BallCanvas,
   //ComputersCanvas,
   StarsCanvas,
+  HeroTypeWriter,
 };
