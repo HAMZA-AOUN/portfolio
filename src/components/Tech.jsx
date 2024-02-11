@@ -43,7 +43,7 @@ const Tech = () => {
         {technologies.map((technology) => (
           <ServiceCard
             key={technology.name}
-            index={technology.name}
+            index={technology.index}
             title={technology.name}
             icon={technology.icon}
           />
