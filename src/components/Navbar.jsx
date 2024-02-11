@@ -74,7 +74,7 @@ const Navbar = () => {
           {navSocialMediaLins.map((nav) => (
             <li
               key={nav.title}
-              className=" flex items-center justify-center w-[34px] h-[34px]
+              className="shadow-lg flex items-center justify-center w-[34px] h-[34px]
             
             cursor-pointer"
               onClick={() => window.open(nav.link, "_blank")}
@@ -120,7 +120,7 @@ const Navbar = () => {
                 {navSocialMediaLins.map((nav) => (
                   <li
                     key={nav.title}
-                    className=" flex items-center justify-center w-[30px] h-[30px]
+                    className="shadow-lg flex items-center justify-center w-[30px] h-[30px]
             
             cursor-pointer"
                     onClick={() => {

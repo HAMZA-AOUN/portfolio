@@ -27,9 +27,9 @@ const HeroTypeWriter = ({ words, speed }) => {
   }, [currentWord, speed, words]);
 
   return (
-    <div className="flex items-center justify-center ">
+    <div className=" flex items-center justify-center ">
       <p
-        className="text-[#915EFF] font-extrabold leading-[90px] sm:leading-[120px]
+        className=" text-[#915EFF] font-extrabold leading-[90px] sm:leading-[120px]
          tracking-[4px] sm:tracking-[8px] lg:tracking-[15px]
          text-[20px] sm:text-[30px] lg:text-[40px]
         "

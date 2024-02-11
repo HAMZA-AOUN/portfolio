@@ -1,8 +1,5 @@
 import { motion } from "framer-motion";
-
-import { styles } from "../styles";
 import HeroTypeWriter from "./HeroTypeWriter";
-//import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
@@ -36,7 +33,7 @@ const Hero = () => {
           </p>
         </div>
         <HeroTypeWriter
-          speed={200}
+          speed={150}
           words={["Web Developer..", "UI/UX Designer..", "Freelancer.."]}
         />
       </div>
@@ -72,25 +69,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-{
-  /* <div
-className={`  ${styles.paddingX} flex 
- flex-row  justify-center items-center`}
->
-<div
-  className="flex flex-col justify-center 
-items-center mt-5"
->
-  <div
-    className="w-5 h-5 rounded-full 
-  bg-[#915EFF]"
-  />
-  <div
-    className="w-1 sm:h-80 h-40
-   violet-gradient"
-  />
-</div>
-
-</div> */
-}
