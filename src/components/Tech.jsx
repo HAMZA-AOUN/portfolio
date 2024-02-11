@@ -8,7 +8,12 @@ import { fadeIn } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
   <motion.div
-    variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+    variants={fadeIn(
+      index % 2 === 0 ? "right" : "left",
+      "spring",
+      index * 0.7,
+      0.75
+    )}
     className="sm:w-[300px] w-full green-pink-gradient p-[1px] rounded-full shadow-card"
   >
     <div
