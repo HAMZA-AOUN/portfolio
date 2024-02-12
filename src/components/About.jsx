@@ -45,7 +45,7 @@ const About = () => {
             className="mt-4 mb-4 md:mb-0 text-secondary text-[17px] leading-[30px]"
           >
             I'm a skilled software developer with experience in TypeScript and
-            JavaScript, and expertise in frameworks like React and Next 14. I'm
+            JavaScript, and expertise in frameworks like Reactjs and Nextjs. I'm
             a quick learner and collaborate closely with clients to create
             efficient, scalable, and user-friendly solutions that solve
             real-world problems. Let's work together to bring your ideas to

@@ -2,6 +2,7 @@ import {
   mobile,
   backend,
   creator,
+  framerMotion,
   web,
   javascript,
   typescript,
@@ -116,27 +117,32 @@ const technologies = [
   },
   {
     index: 7,
+    name: "Framer Motion",
+    icon: framerMotion,
+  },
+  {
+    index: 8,
     name: "Tailwind CSS",
     icon: tailwind,
   },
 
   {
-    index: 8,
+    index: 9,
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    index: 9,
+    index: 10,
     name: "Three JS",
     icon: threejs,
   },
   {
-    index: 10,
+    index: 11,
     name: "git",
     icon: git,
   },
   {
-    index: 11,
+    index: 12,
     name: "figma",
     icon: figma,
   },
@@ -167,7 +173,7 @@ const projects = [
     ],
     image: evently,
     source_code_link: "https://github.com/HAMZA-AOUN/event_platform",
-    demo: "https://event-platform-o2qz-4x89scurz-hamza-aouns-projects.vercel.app/",
+    demo: "https://event-platform-nine-teal.vercel.app/",
     video_link:
       "https://drive.google.com/file/d/1IJFF50NMu2lf2cb80K_IW29Pe36iJwRW/view?usp=drivesdk",
   },
@@ -192,7 +198,7 @@ const projects = [
     ],
     image: food_delivery_app,
     source_code_link: "https://github.com/HAMZA-AOUN/restaurant-delivery",
-    demo: "https://restaurant-delivery-onk9y43h9-hamza-aouns-projects.vercel.app/",
+    demo: "https://restaurant-delivery-five.vercel.app/",
     video_link:
       "https://drive.google.com/file/d/1I3IhTPQdzWFlI7D6HKfcgK4wWkRP-m6a/view?usp=drivesdk",
   },
@@ -233,7 +239,7 @@ const projects = [
     ],
     image: gpt3,
     source_code_link: "https://github.com/HAMZA-AOUN/GPT3",
-    demo: "https://gpt-3-nenmvoa9x-hamza-aouns-projects.vercel.app/",
+    demo: "https://gpt-3-gules-nine.vercel.app/",
     video_link: "",
   },
 

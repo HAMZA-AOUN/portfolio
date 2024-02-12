@@ -20,6 +20,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import framerMotion from "./tech/framer-motion.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -45,6 +46,7 @@ import video from "./video.png";
 
 export {
   video,
+  framerMotion,
   website1,
   facebook,
   instagram,
