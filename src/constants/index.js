@@ -48,7 +48,7 @@ export const navSocialMediaLins = [
   {
     title: "linkedin",
     img: linkedin,
-    link: "https://www.linkedin.com/in/hamza-aoun-7200a228b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    link: "www.linkedin.com/in/hamza-aoun",
   },
 ];
 
