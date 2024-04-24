@@ -6,7 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import hamzaAdminDashboard from "./hamzaAdminDashboard.png";
+import hamzaAdminDashboard from "./hamzaAdminDashboard.PNG";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
