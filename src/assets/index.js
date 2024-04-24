@@ -6,7 +6,6 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import hamzaAdminDashboard from "./hamzaAdminDashboard.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -43,6 +42,7 @@ import instagram from "./instagram.png";
 import linkedin from "./linkedin.png";
 import website1 from "./website1.png";
 import video from "./video.png";
+import adminDashboard from "./hamzaAdminDashboard.png";
 
 export {
   video,
@@ -87,5 +87,5 @@ export {
   food_delivery_app,
   gpt3,
   Nextjs,
-  hamzaAdminDashboard,
+  adminDashboard,
 };

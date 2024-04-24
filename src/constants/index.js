@@ -32,7 +32,7 @@ import {
   facebook,
   instagram,
   linkedin,
-  hamzaAdminDashboard,
+  adminDashboard,
   hamza,
 } from "../assets";
 
@@ -198,7 +198,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: hamzaAdminDashboard,
+    image: adminDashboard,
     source_code_link: "https://github.com/HAMZA-AOUN/hamza-admin-dashboard",
     demo: "https://hamza-admin-dashboard.vercel.app/",
     video_link:
