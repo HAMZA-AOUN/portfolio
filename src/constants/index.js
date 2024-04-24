@@ -32,6 +32,8 @@ import {
   facebook,
   instagram,
   linkedin,
+  hamzaAdminDashboard,
+  hamza,
 } from "../assets";
 
 export const navSocialMediaLins = [
@@ -176,6 +178,31 @@ const projects = [
     demo: "https://event-platform-nine-teal.vercel.app/",
     video_link:
       "https://drive.google.com/file/d/1IJFF50NMu2lf2cb80K_IW29Pe36iJwRW/view?usp=drivesdk",
+  },
+
+  {
+    name: "Admin Dashboard",
+    description:
+      "A dynamic admin dashboard built with Next.js to manage products and users. Leveraging MongoDB for data persistence and credentials-based authentication to ensure secure access and data integrity, this project offers: 1-Secure Authentication: User registration and login with encrypted passwords. 2-Product Management: CRUD operations for products, including image uploads and detailed views. 3-User Management: View and manage user profiles, with options for editing and deletion. ",
+    tags: [
+      {
+        name: "Next 14",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MogoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hamzaAdminDashboard,
+    source_code_link: "https://github.com/HAMZA-AOUN/hamza-admin-dashboard",
+    demo: "https://hamza-admin-dashboard.vercel.app/",
+    video_link:
+      "https://drive.google.com/file/d/1Phi_sczZB0cX8Mjhe8dlYUHh22rbcBBg/view?usp=drivesdk",
   },
 
   {
