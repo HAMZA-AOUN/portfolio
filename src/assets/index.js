@@ -42,7 +42,7 @@ import instagram from "./instagram.png";
 import linkedin from "./linkedin.png";
 import website1 from "./website1.png";
 import video from "./video.png";
-import adminDashboard from "./hamzaAdminDashboard.png";
+import adminDashboard from "./hamzaAdminDashboard.jpg";
 
 export {
   video,
