@@ -32,6 +32,7 @@ import {
   facebook,
   instagram,
   linkedin,
+  hamzaAdminDashboard,
   adminDashboard,
   hamza,
 } from "../assets";
@@ -198,11 +199,34 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: adminDashboard,
+    image: hamzaAdminDashboard,
     source_code_link: "https://github.com/HAMZA-AOUN/hamza-admin-dashboard",
     demo: "https://hamza-admin-dashboard.vercel.app/",
     video_link:
       "https://drive.google.com/file/d/1Phi_sczZB0cX8Mjhe8dlYUHh22rbcBBg/view?usp=drivesdk",
+  },
+  {
+    name: "Admin Dashboard",
+    description:
+      "a simplified version of the financial dashboard that has:1- A public home page. 2- A login page.Dashboard pages that are protected by authentication.3- The ability for users to add, edit, and delete invoices.4- The dashboard will also have an accompanying database.",
+    tags: [
+      {
+        name: "Next 14",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PostgreSQL database",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: adminDashboard,
+    source_code_link: "https://github.com/HAMZA-AOUN/next-dashoard",
+    demo: "https://next-dashoard.vercel.app/",
+    video_link: "",
   },
 
   {

@@ -42,8 +42,8 @@ import instagram from "./instagram.png";
 import linkedin from "./linkedin.png";
 import website1 from "./website1.png";
 import video from "./video.png";
-import adminDashboard from "./hamzaAdminDashboard.jpg";
-
+import hamzaAdminDashboard from "./hamzaAdminDashboard.jpg";
+import adminDashboard from "./adminDashboard.png";
 export {
   video,
   framerMotion,
@@ -87,5 +87,6 @@ export {
   food_delivery_app,
   gpt3,
   Nextjs,
+  hamzaAdminDashboard,
   adminDashboard,
 };
